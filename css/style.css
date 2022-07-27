@@ -404,6 +404,9 @@ a:focus, a:hover {
 .navigation .logo-default {
   display: none;
 }
+.navigation .logo-default {
+  display: none;
+}
 .navigation .dropdown-toggle::before, .navigation .dropdown-toggle::after {
   display: none;
 }
@@ -516,6 +519,7 @@ a:focus, a:hover {
   }
   .navigation .logo-white {
     display: none;
+    height: 90px;
   }
   .navigation .logo-default {
     display: block;
@@ -647,7 +651,7 @@ a:focus, a:hover {
 .slider-item h1 {
   color: #fff;
   font-family: 'Rubik Mono One', sans-serif;
-  font-size: 120px;
+  font-size: 10vw;
   line-height: 150px;
   letter-spacing: 2px;
   font-weight: 700;
