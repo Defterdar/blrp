@@ -416,8 +416,9 @@ a:focus, a:hover {
   vertical-align: 2px;
 }
 .navigation .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #fff;
-  font-size: 14px;
+  color: #1576ed ;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
   line-height: 26px;
   padding: 20px 15px;
   text-transform: uppercase;
@@ -512,10 +513,10 @@ a:focus, a:hover {
 @media (max-width: 991px) {
   .navigation {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
-    background: #fff;
+    background: rgba(255, 255, 255, 0.349);
   }
   .navigation .navbar-light .navbar-nav .nav-item .nav-link {
-    color: #000;
+    color: #1576ed ;
   }
   .navigation .logo-white {
     display: none;
@@ -534,7 +535,7 @@ a:focus, a:hover {
   background: rgba(255, 255, 255, 0.336);
 }
 .sticky-header .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #000;
+  color: #1576ed ;
 }
 .sticky-header .logo-white {
   display: none;
@@ -652,7 +653,7 @@ a:focus, a:hover {
   color: #fff;
   /* font-family: 'Rubik Mono One', sans-serif; */
   font-family: 'Bebas Neue', cursive;
-  font-size: 4vw;
+  font-size: 5vw;
   line-height: 90px;
   letter-spacing: 2px;
   font-weight: 700;
