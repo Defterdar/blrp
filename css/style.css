@@ -654,12 +654,12 @@ a:focus, a:hover {
   /* font-family: 'Rubik Mono One', sans-serif; */
   font-family: 'Bebas Neue', cursive;
   font-size: 5vw;
-  line-height: 90px;
+  line-height: 10vh;
   letter-spacing: 2px;
   font-weight: 700;
   margin-bottom: 20px;
   margin-top: 50px;
-  text-shadow: 3px 3px #ff00bf4b;
+  text-shadow: 4px 4px #f036c188;
 }
 @media (max-width: 768px) {
   .slider-item h1 {
