@@ -650,7 +650,8 @@ a:focus, a:hover {
 }
 .slider-item h1 {
   color: #fff;
-  font-family: 'Rubik Mono One', sans-serif;
+  /* font-family: 'Rubik Mono One', sans-serif; */
+  font-family: 'Bebas Neue', cursive;
   font-size: 4vw;
   line-height: 90px;
   letter-spacing: 2px;
