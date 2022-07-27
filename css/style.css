@@ -658,6 +658,7 @@ a:focus, a:hover {
   font-weight: 700;
   margin-bottom: 20px;
   margin-top: 50px;
+  text-shadow: 3px 3px #ff00bf4b;
 }
 @media (max-width: 768px) {
   .slider-item h1 {
