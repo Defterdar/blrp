@@ -134,7 +134,7 @@ a:focus, a:hover {
 }
 
 #preloader {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.26);
   height: 100%;
   left: 0;
   opacity: 1;
@@ -531,7 +531,7 @@ a:focus, a:hover {
 }
 .sticky-header {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
-  background: #fff;
+  background: rgba(255, 255, 255, 0.336);
 }
 .sticky-header .navbar-light .navbar-nav .nav-item .nav-link {
   color: #000;
