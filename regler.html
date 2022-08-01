@@ -52,8 +52,8 @@
 </head>
 <body id="body">
 <script>
-	function myFunction() {
-		var x = document.getElementById("myDIV");
+	function myFunction(str) {
+		var x = document.getElementById(str);
 		if (x.style.display === "none") {
 		x.style.display = "block";
 		} else {
@@ -131,10 +131,10 @@ Welcome Slider
  		<div class="row">
  			<div class="col-md-12">
  				<div class="block mt-4">
- 					<h1 onclick="myFunction()" class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">Regelsæt</h1>
+ 					<h1 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">Regelsæt</h1>
  					<br><br>
-					<div id="myDIV">
-						<h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">- New Life Rule</h2>
+					<h2 onclick="myFunction('newlife')" class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s">- New Life Rule</h2>
+					<div id="newlife">
 						<p class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">Når du genopliver efter 300 sekunder, efter at have været død i et scenarie, har du glemt alt om scenariet op til du døde.
 						Du må ikke genoplive hvis du ved at EMS og/eller politiet er på vej, eller du på anden måde stadig indgår i det pågældende scenarie.
  						</p>
