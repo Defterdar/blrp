@@ -423,7 +423,8 @@ a:focus, a:hover {
   padding: 20px 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: 0.2s ease-in-out 0s;
+  font-weight: 700;
+  text-shadow: 4px 4px #f036c188;"
 }
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
   background: none;
