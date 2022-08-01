@@ -41,8 +41,28 @@
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 
-</head>
-<body id="body">
+  <style>
+    #newlife {
+      width: 100%;
+      padding: 50px 0;
+      text-align: center;
+      /* background-color: lightblue; */
+      margin-top: 20px;
+      display: none;
+    }
+  </style>
+  </head>
+  <body id="body">
+  <script>
+    function myFunction(str) {
+      var x = document.getElementById(str);
+      if (x.style.display === "none") {
+      x.style.display = "block";
+      } else {
+      x.style.display = "none";
+      }
+    }
+  </script>
 
   <!--
   Start Preloader
@@ -127,10 +147,12 @@ End Fixed Navigation
 			<article class="col-lg-4 col-md-6">
 				<div class="post-item">
 					<div class="content">
-						<h3><a href="single-post.html">Reasons to Smile</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
-						<a class="btn btn-main" href="single-post.html">Read more</a>
+						<h3 onclick="myFunction('newlife')">Reasons to Smile</h3>
+						<div id="newlife">
+              <p>Når du genopliver efter 300 sekunder, efter at have været død i et scenarie, har du glemt alt om scenariet op til du døde.
+              Du må ikke genoplive hvis du ved at EMS og/eller politiet er på vej, eller du på anden måde stadig indgår i det pågældende scenarie.
+               </p>
+            </div>
 					</div>
 				</div>
 			</article>
