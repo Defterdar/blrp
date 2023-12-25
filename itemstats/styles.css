@@ -26,6 +26,7 @@ th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+    height: 30px; /* Set the fixed height for table cells */
 }
 
 th {
