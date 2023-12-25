@@ -1,6 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
@@ -14,8 +19,7 @@ h1 {
 table {
     width: 250px; /* Set the fixed width for each table */
     border-collapse: collapse;
-    margin-top: 20px;
-    margin-right: 20px; /* Add some space between tables */
+    margin: 20px;
 }
 
 th, td {
