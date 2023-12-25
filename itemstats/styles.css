@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     margin: 0;
 }
@@ -14,12 +13,13 @@ h1 {
 
 .tables-container {
     display: flex;
+    margin-top: 20px; /* Add margin to separate tables from the header */
 }
 
 table {
     width: 250px; /* Set the fixed width for each table */
     border-collapse: collapse;
-    margin: 20px;
+    margin-right: 20px; /* Add some space between tables */
 }
 
 th, td {
