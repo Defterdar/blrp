@@ -1,14 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Fetch and display CSV data for Table 1
-    fetch('data1.csv')
-        .then(response => response.text())
-        .then(csvData => displayData(csvData, 'data-table1'));
-
-    // Fetch and display CSV data for Table 2
-    fetch('data2.csv')
-        .then(response => response.text())
-        .then(csvData => displayData(csvData, 'data-table2'));
-
     // Function to display CSV data in the table
     function displayData(csvData, tableId) {
         const dataArray = CSVToArray(csvData);
@@ -22,6 +12,16 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     }
+
+    // Fetch and display CSV data for Table 1
+    fetch('data1.csv')
+        .then(response => response.text())
+        .then(csvData => displayData(csvData, 'data-table1'));
+
+    // Fetch and display CSV data for Table 2
+    fetch('data2.csv')
+        .then(response => response.text())
+        .then(csvData => displayData(csvData, 'data-table2'));
 
     // Function to parse CSV data into a 2D array
     function CSVToArray(csvData) {
