@@ -31,9 +31,3 @@ th, td {
 th {
     cursor: pointer;
 }
-
-/* Set the fixed height for table rows */
-#data-table1-body tr,
-#data-table2-body tr {
-    height: 30px; /* Adjust the height as needed */
-}
