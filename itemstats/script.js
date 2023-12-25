@@ -13,15 +13,19 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    // Function to fetch and display CSV data for a specific table
+    function fetchDataAndDisplay(tableId, csvFileName) {
+        fetch(csvFileName)
+            .then(response => response.text())
+            .then(csvData => displayData(csvData, tableId))
+            .catch(error => console.error(`Error fetching data for ${tableId}:`, error));
+    }
+
     // Fetch and display CSV data for Table 1
-    fetch('data1.csv')
-        .then(response => response.text())
-        .then(csvData => displayData(csvData, 'data-table1'));
+    fetchDataAndDisplay('data-table1', 'data1.csv');
 
     // Fetch and display CSV data for Table 2
-    fetch('data2.csv')
-        .then(response => response.text())
-        .then(csvData => displayData(csvData, 'data-table2'));
+    fetchDataAndDisplay('data-table2', 'data2.csv');
 
     // Function to parse CSV data into a 2D array
     function CSVToArray(csvData) {
