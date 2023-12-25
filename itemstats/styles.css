@@ -26,9 +26,14 @@ th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-    height: 30px; /* Set the fixed height for table cells */
 }
 
 th {
     cursor: pointer;
+}
+
+/* Set the fixed height for table rows */
+#data-table1-body tr,
+#data-table2-body tr {
+    height: 30px; /* Adjust the height as needed */
 }
