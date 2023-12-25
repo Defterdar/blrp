@@ -7,10 +7,15 @@ h1 {
     text-align: center;
 }
 
+.tables-container {
+    display: flex;
+}
+
 table {
-    width: 500px; /* Set the fixed width */
+    width: 250px; /* Set the fixed width for each table */
     border-collapse: collapse;
     margin-top: 20px;
+    margin-right: 20px; /* Add some space between tables */
 }
 
 th, td {
