@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera Image Upload</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <input class="inputBox" type="file" accept="image/*" capture="camera" id="imageInput" onchange="previewImage()" style="display:none">
+  <img class="previewBox" id="preview">
+  
+  <!-- Display the full filename -->
+  <p id="filenameDisplay"></p>
+
+  <label for="imageInput" class="inputBox" ><img class="fixedImage" src="camera.png" alt="DOT Image" width="20%"></label>
+  <!-- Add a 'name' parameter in the URL, for example "?name=GB" -->
+
+  <script src="script.js"></script></body>
+</html>

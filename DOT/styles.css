@@ -1,0 +1,24 @@
+body { 
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 10%;
+  background: rgb(166,25,46);
+} 
+p {text-align: center;}
+
+.previewBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  max-width: 100%; 
+  max-height: 400px;
+}
+.fixedImage {
+  position: fixed;
+  top: 80%; /* Adjust the top position as needed */
+  left: 40%; /* Adjust the left position as needed */
+  width: 20%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  z-index: 999; /* Set the z-index to ensure it's on top of other elements */
+}
